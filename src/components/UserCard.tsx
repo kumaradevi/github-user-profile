@@ -13,10 +13,7 @@ const UserCard:React.FC = () => {
   console.log(user)
   return (
     <div>
-    <h3>{user?.name}</h3>
-    <div className='w-[100px] '>
-      <img src={user?.avatar_url} alt=""  className='w-full rounded-full object-cover'/>
-    </div>
+   
     </div>
   )
 }
